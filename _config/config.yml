@@ -1,0 +1,14 @@
+---
+Name: SectionsConfig
+---
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - Sections\Extensions\SectionContentControllerExtension
+  url_handlers:
+    section/$ID!: handleSection
+Symbiote\GridFieldExtensions\GridFieldAddNewMultiClassHandler:
+  extensions:
+    - Sections\Extensions\GridFieldAddNewMultiClassHandlerExtension
+SilverStripe\Versioned\VersionedGridFieldItemRequest:
+  extensions:
+    - Sections\Extensions\GridFieldDetailFormItemRequestExtension

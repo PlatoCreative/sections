@@ -1,0 +1,6 @@
+mappings:
+  Sectioned: Sections\Extensions\Sectioned
+  SectionObject: Sections\Extensions\SectionObject
+  SectionArea: Sections\Extensions\SectionArea
+  SectionController: Sections\Controllers\SectionController
+  SectionContentControllerExtension: Sections\Controllers\SectionContentControllerExtension

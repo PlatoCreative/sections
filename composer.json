@@ -1,0 +1,19 @@
+{
+  "name": "plato-creative/sections",
+  "description": "Sections",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Plato Creative",
+      "email": "web@platocreative.co.nz"
+    }
+  ],
+  "homepage": "http://github.com/plato-creative/sections",
+  "require":
+  {
+    "silverstripe/cms": "^4.0"
+  },
+  "extra": {
+    "installer-name": "sections"
+  }
+}

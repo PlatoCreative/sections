@@ -1,0 +1,29 @@
+en:
+  Section:
+    ADVANCEDWARNING: 'This area is intended for advanced usage.  AVOID modifications if you are uncertain.'
+    ANCHORPREVIEW: Anchor
+    COLORSCHEME: 'Select a colour scheme'
+    HIDE: 'Hide from public display'
+    LAYOUT: 'Select a layout'
+    MOBILESORT: 'Allow mobile section order'
+    MOBILESORTGRID: 'Mobile section order'
+    MOBILESORTNO: 'No'
+    MOBILESORTYES: 'Yes'
+    TABMAIN: Content
+    TABSETTINGS: Settings
+    TITLESEMANTIC: 'Title semantics'
+  Sections\Extensions\Sectioned:
+    SHOWFORDESKTOP: 'Show for desktop'
+    SHOWFORMOBILE: 'Show for mobile'
+  Sections\Models\SectionArea:
+    PLURALNAME: Areas
+    PLURALS:
+      one: 'An Area'
+      other: '{count} Areas'
+    SINGULARNAME: Area
+  Sections\Models\SectionObject:
+    PLURALNAME: Sections
+    PLURALS:
+      one: 'A Section'
+      other: '{count} Sections'
+    SINGULARNAME: Section
