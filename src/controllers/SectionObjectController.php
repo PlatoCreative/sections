@@ -139,7 +139,7 @@ class SectionObjectController extends Controller
             return;
         }
         return HTMLTag::create(
-            $section->obj('Title')->Highlight(),
+            $section->obj('Title')->Highlight()->forTemplate(),
             $this->TitleSemantic()
         )
         ->setPrefix($section->Class);
