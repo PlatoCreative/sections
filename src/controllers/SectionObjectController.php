@@ -115,33 +115,4 @@ class SectionObjectController extends Controller
     {
         return ($this->Pos != 1 && $this->Pos != $this->TotalItem);
     }
-
-    public function TitleSemantic()
-    {
-        $section = $this->section;
-        if ($section->TitleHide) {
-            return;
-        }
-        switch ($section->TitleSemantic) {
-            case 'hide':
-                return;
-            case 'auto':
-                return ($this->First()) ? 'h1' : 'h2';
-            default:
-                return $section->TitleSemantic;
-        }
-    }
-
-    public function Title()
-    {
-        $section = $this->section;
-        if ($this->TitleForceHide || !$this->TitleSemantic()) {
-            return;
-        }
-        return HTMLTag::create(
-            $section->obj('Title')->Highlight()->forTemplate(),
-            $this->TitleSemantic()
-        )
-        ->setPrefix($section->Class);
-    }
 }
