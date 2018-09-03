@@ -213,7 +213,7 @@ class Sectioned extends DataExtension
                 $controller->TotalItems = $total + $offset;
                 $sections[] = $section->render();
             }
-            return '<div class="sections">' . implode('', $sections) . '</div>';
+            return implode('', $sections);
         }
     }
 
