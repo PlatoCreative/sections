@@ -89,6 +89,10 @@ class SectionObject extends DataObject implements
         'i18n_singular_name' => 'Type'
     ];
 
+    private static $searchable_fields = [
+        'Title' => 'Title'
+    ];
+        
     /**
      * Add default values to database
      * @var array
