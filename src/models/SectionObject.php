@@ -90,7 +90,7 @@ class SectionObject extends DataObject implements
     ];
 
     private static $searchable_fields = [
-        'Title' => 'Title'
+        'Title'
     ];
         
     /**
