@@ -8,7 +8,7 @@ composer require plato-creative/sections
 
 ## Requirements
 
-- silverstripe/cms ^4.0
+- silverstripe/cms ^5.0
 
 ## Maintainers
 
